@@ -1,6 +1,6 @@
 //
-//  SpriteKitTest1Tests.swift
-//  SpriteKitTest1Tests
+//  Learn2GameTests.swift
+//  Learn2GameTests
 //
 //  Created by EskiMag on 08/12/14.
 //  Copyright (c) 2014 EskiMag. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class SpriteKitTest1Tests: XCTestCase {
+class Learn2GameTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

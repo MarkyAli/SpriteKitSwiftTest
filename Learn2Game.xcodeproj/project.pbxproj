@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1BBF701A361AB8009927C2 /* GunNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BBF6F1A361AB8009927C2 /* GunNode.swift */; };
+		2B1BBF721A361E88009927C2 /* gun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BBF711A361E88009927C2 /* gun.png */; };
+		2B1BBF741A362058009927C2 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BBF731A362058009927C2 /* asteroid.png */; };
+		2B1BBF761A36322D009927C2 /* photon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BBF751A36322D009927C2 /* photon.png */; };
+		2B4F6F471A3617D000BA49ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F6F461A3617D000BA49ED /* AppDelegate.swift */; };
+		2B4F6F4B1A3617D000BA49ED /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F6F4A1A3617D000BA49ED /* GameScene.swift */; };
+		2B4F6F4D1A3617D000BA49ED /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F6F4C1A3617D000BA49ED /* GameViewController.swift */; };
+		2B4F6F501A3617D000BA49ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F6F4E1A3617D000BA49ED /* Main.storyboard */; };
+		2B4F6F521A3617D000BA49ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F6F511A3617D000BA49ED /* Images.xcassets */; };
+		2B4F6F551A3617D000BA49ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F6F531A3617D000BA49ED /* LaunchScreen.xib */; };
+		2B4F6F611A3617D000BA49ED /* Learn2GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F6F601A3617D000BA49ED /* Learn2GameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4F6F5B1A3617D000BA49ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4F6F391A3617D000BA49ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4F6F401A3617D000BA49ED;
+			remoteInfo = Learn2Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1BBF6F1A361AB8009927C2 /* GunNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GunNode.swift; sourceTree = "<group>"; };
+		2B1BBF711A361E88009927C2 /* gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gun.png; sourceTree = "<group>"; };
+		2B1BBF731A362058009927C2 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
+		2B1BBF751A36322D009927C2 /* photon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photon.png; sourceTree = "<group>"; };
+		2B4F6F411A3617D000BA49ED /* Learn2Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn2Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4F6F451A3617D000BA49ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4F6F461A3617D000BA49ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4F6F4A1A3617D000BA49ED /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2B4F6F4C1A3617D000BA49ED /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2B4F6F4F1A3617D000BA49ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4F6F511A3617D000BA49ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B4F6F541A3617D000BA49ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B4F6F5A1A3617D000BA49ED /* Learn2GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learn2GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4F6F5F1A3617D000BA49ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4F6F601A3617D000BA49ED /* Learn2GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn2GameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4F6F3E1A3617D000BA49ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4F6F571A3617D000BA49ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4F6F381A3617D000BA49ED = {
+			isa = PBXGroup;
+			children = (
+				2B4F6F431A3617D000BA49ED /* Learn2Game */,
+				2B4F6F5D1A3617D000BA49ED /* Learn2GameTests */,
+				2B4F6F421A3617D000BA49ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4F6F421A3617D000BA49ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F6F411A3617D000BA49ED /* Learn2Game.app */,
+				2B4F6F5A1A3617D000BA49ED /* Learn2GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4F6F431A3617D000BA49ED /* Learn2Game */ = {
+			isa = PBXGroup;
+			children = (
+				2B1BBF711A361E88009927C2 /* gun.png */,
+				2B1BBF731A362058009927C2 /* asteroid.png */,
+				2B1BBF751A36322D009927C2 /* photon.png */,
+				2B4F6F461A3617D000BA49ED /* AppDelegate.swift */,
+				2B4F6F4A1A3617D000BA49ED /* GameScene.swift */,
+				2B4F6F4C1A3617D000BA49ED /* GameViewController.swift */,
+				2B1BBF6F1A361AB8009927C2 /* GunNode.swift */,
+				2B4F6F4E1A3617D000BA49ED /* Main.storyboard */,
+				2B4F6F511A3617D000BA49ED /* Images.xcassets */,
+				2B4F6F531A3617D000BA49ED /* LaunchScreen.xib */,
+				2B4F6F441A3617D000BA49ED /* Supporting Files */,
+			);
+			path = Learn2Game;
+			sourceTree = "<group>";
+		};
+		2B4F6F441A3617D000BA49ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F6F451A3617D000BA49ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B4F6F5D1A3617D000BA49ED /* Learn2GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F6F601A3617D000BA49ED /* Learn2GameTests.swift */,
+				2B4F6F5E1A3617D000BA49ED /* Supporting Files */,
+			);
+			path = Learn2GameTests;
+			sourceTree = "<group>";
+		};
+		2B4F6F5E1A3617D000BA49ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F6F5F1A3617D000BA49ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4F6F401A3617D000BA49ED /* Learn2Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4F6F641A3617D000BA49ED /* Build configuration list for PBXNativeTarget "Learn2Game" */;
+			buildPhases = (
+				2B4F6F3D1A3617D000BA49ED /* Sources */,
+				2B4F6F3E1A3617D000BA49ED /* Frameworks */,
+				2B4F6F3F1A3617D000BA49ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Learn2Game;
+			productName = Learn2Game;
+			productReference = 2B4F6F411A3617D000BA49ED /* Learn2Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B4F6F591A3617D000BA49ED /* Learn2GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4F6F671A3617D000BA49ED /* Build configuration list for PBXNativeTarget "Learn2GameTests" */;
+			buildPhases = (
+				2B4F6F561A3617D000BA49ED /* Sources */,
+				2B4F6F571A3617D000BA49ED /* Frameworks */,
+				2B4F6F581A3617D000BA49ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4F6F5C1A3617D000BA49ED /* PBXTargetDependency */,
+			);
+			name = Learn2GameTests;
+			productName = Learn2GameTests;
+			productReference = 2B4F6F5A1A3617D000BA49ED /* Learn2GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4F6F391A3617D000BA49ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = EskiMag;
+				TargetAttributes = {
+					2B4F6F401A3617D000BA49ED = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2B4F6F591A3617D000BA49ED = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2B4F6F401A3617D000BA49ED;
+					};
+				};
+			};
+			buildConfigurationList = 2B4F6F3C1A3617D000BA49ED /* Build configuration list for PBXProject "Learn2Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4F6F381A3617D000BA49ED;
+			productRefGroup = 2B4F6F421A3617D000BA49ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4F6F401A3617D000BA49ED /* Learn2Game */,
+				2B4F6F591A3617D000BA49ED /* Learn2GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4F6F3F1A3617D000BA49ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4F6F551A3617D000BA49ED /* LaunchScreen.xib in Resources */,
+				2B4F6F521A3617D000BA49ED /* Images.xcassets in Resources */,
+				2B1BBF721A361E88009927C2 /* gun.png in Resources */,
+				2B1BBF741A362058009927C2 /* asteroid.png in Resources */,
+				2B4F6F501A3617D000BA49ED /* Main.storyboard in Resources */,
+				2B1BBF761A36322D009927C2 /* photon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4F6F581A3617D000BA49ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4F6F3D1A3617D000BA49ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1BBF701A361AB8009927C2 /* GunNode.swift in Sources */,
+				2B4F6F4B1A3617D000BA49ED /* GameScene.swift in Sources */,
+				2B4F6F4D1A3617D000BA49ED /* GameViewController.swift in Sources */,
+				2B4F6F471A3617D000BA49ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4F6F561A3617D000BA49ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4F6F611A3617D000BA49ED /* Learn2GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4F6F5C1A3617D000BA49ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4F6F401A3617D000BA49ED /* Learn2Game */;
+			targetProxy = 2B4F6F5B1A3617D000BA49ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B4F6F4E1A3617D000BA49ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4F6F4F1A3617D000BA49ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B4F6F531A3617D000BA49ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4F6F541A3617D000BA49ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B4F6F621A3617D000BA49ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B4F6F631A3617D000BA49ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4F6F651A3617D000BA49ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Learn2Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B4F6F661A3617D000BA49ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Learn2Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B4F6F681A3617D000BA49ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Learn2GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn2Game.app/Learn2Game";
+			};
+			name = Debug;
+		};
+		2B4F6F691A3617D000BA49ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Learn2GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn2Game.app/Learn2Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4F6F3C1A3617D000BA49ED /* Build configuration list for PBXProject "Learn2Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4F6F621A3617D000BA49ED /* Debug */,
+				2B4F6F631A3617D000BA49ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4F6F641A3617D000BA49ED /* Build configuration list for PBXNativeTarget "Learn2Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4F6F651A3617D000BA49ED /* Debug */,
+				2B4F6F661A3617D000BA49ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4F6F671A3617D000BA49ED /* Build configuration list for PBXNativeTarget "Learn2GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4F6F681A3617D000BA49ED /* Debug */,
+				2B4F6F691A3617D000BA49ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4F6F391A3617D000BA49ED /* Project object */;
+}

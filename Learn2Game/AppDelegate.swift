@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SpriteKitTest1
+//  Learn2Game
 //
 //  Created by EskiMag on 08/12/14.
 //  Copyright (c) 2014 EskiMag. All rights reserved.
